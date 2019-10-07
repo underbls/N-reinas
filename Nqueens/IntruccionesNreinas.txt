@@ -1,0 +1,53 @@
+
+
+------------------------------------------------------------------------
+N - reinas, resuelto con algoritmo genetico "Lenguaje Utilizado: Python"
+------------------------------------------------------------------------
+
+1) Para ejecutar el programa es necesario compilarlo en un entorno python.
+2) Ejecutar bajo los siguientes parametros "python   nreinas.py  12 10 6000 0.3 0.9 0 "
+3) Ejecutando el programa con el set de datos mencionado anteriormente, la solucion retornada es: [4,10,3,0,6,11,2,7,1,8,5,9].
+
+-------------------------------------------------------------------------
+--------------------Descripcion de funciones-----------------------------
+-------------------------------------------------------------------------
+
+#genera p individuos aleatoreos.
+1) pob_ini(n,p):
+
+#retorna lista con el fitness del individuo.
+2) indv_fitness(n):
+
+#retorna los choques del tablero. 
+3)fitness(individuo):
+
+#retorna prob. total de cada individuo en la pob.
+4)prob_fitness(poblacion):
+
+#selecciona dos padres para la cruza.
+5)ruleta_select(poblacion,probabilidades):
+
+#retorna dos hijos, producto de la cruza, si no hay cruza se realiza una seleccion rand.
+que retorna dos indv generados aleatoreamente.
+6)cruza(indv1,indv2,c,m):
+
+#retorna un indv, sin opciones de choque.
+7)indv_optimo(indv):
+
+#retorna indv mutado.
+8)mutar_indv(indv,m):
+
+
+*********Parametros de entrada:*********
+
+n= tam del tablero
+p= individuos
+it= iteraciones
+c= prob de cruza
+m= prob de muta
+
+----------------------------------------------------------------------
+Esteban González.
+Sebastián Ossandón.
+7/10/2019.
+--------------------------------------------------------------------------
